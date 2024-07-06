@@ -1,26 +1,22 @@
 import React from 'react';
-import logo from './logo.svg';
 import './App.css';
+import {Box, ChakraProvider, Heading, Stack, Text, Image, SimpleGrid, Flex} from "@chakra-ui/react";
+import Images from "./Images";
 
 function App() {
-  return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.tsx</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
-  );
+    return (
+        <ChakraProvider>
+            {/*<Box height={'100dvh'} bgGradient='linear(to-b, #f1f2eb, #d4e32d)'>*/}
+            <Box height={"-webkit-fit-content"} background={'#f1f2eb'}>
+                <Box padding={30}>
+                    <Box width={'100%'} p={50}>
+                        <Heading color={'#e3a02d'} size={'4xl'}>syd botz</Heading>
+                    </Box>
+                    <Images/>
+                </Box>
+            </Box>
+        </ChakraProvider>
+    );
 }
 
 export default App;
