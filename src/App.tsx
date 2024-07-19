@@ -1,7 +1,7 @@
 import React from 'react';
 import './App.css';
 import {Box, ChakraProvider, Heading} from "@chakra-ui/react";
-import Images from "./Images";
+import Images from "./components/Images";
 import {extendTheme} from '@chakra-ui/react'
 import '@fontsource/source-serif-pro'
 import '@fontsource/source-serif-pro/400.css'

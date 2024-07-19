@@ -1,7 +1,7 @@
 import ImageCard from "./ImageCard";
 import {Center, SimpleGrid, Stack} from "@chakra-ui/react";
 import React from "react";
-import {featured, projects} from "./projects";
+import {featured, projects} from "../data/projects";
 
 export default function Images() {
     return (

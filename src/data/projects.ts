@@ -1,4 +1,4 @@
-import {ImageProps} from "./ImageCard";
+import {ImageProps} from "../components/ImageCard";
 
 export const featured: ImageProps[] = [
     {
